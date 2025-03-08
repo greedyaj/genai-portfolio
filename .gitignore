@@ -1,0 +1,73 @@
+# Project specific
+local-llm-chat-app/venv/
+local-llm-chat-app/__pycache__/
+local-llm-chat-app/.env
+
+# Virtual Environments
+**/venv/
+**/.env/
+**/.venv/
+**/env/
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/*.so
+**/.Python
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+
+# IDE specific
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+**/.DS_Store
+
+# Logs and databases
+**/*.log
+**/*.sqlite
+**/*.db
+
+# Environment variables
+**/.env
+**/.env.local
+
+# Streamlit
+**/.streamlit/secrets.toml
+
+# Model files and cache
+**/*.gguf
+**/.cache/
+**/model/
+
+# Jupyter Notebooks
+**/.ipynb_checkpoints
+**/*.ipynb
+
+# Build and package files
+**/build/
+**/dist/
+**/node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
