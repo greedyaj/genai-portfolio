@@ -56,7 +56,6 @@ local-llm-chat-app/.env
 
 # Jupyter Notebooks
 **/.ipynb_checkpoints
-**/*.ipynb
 
 # Build and package files
 **/build/
